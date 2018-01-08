@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name C64TapePortBreakOut)(type KiCad)(uri "$(KIPRJMOD)/C64TapePortBreakOut.pretty")(options "")(descr ""))
+)
