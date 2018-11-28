@@ -3,6 +3,23 @@ OpenC64TapePortBreakOut is an Open Hardware PCB that breaks out all the pins on 
 
 ![Board](https://raw.githubusercontent.com/SukkoPera/OpenC64TapePortBreakOut/master/doc/render-top.png)
 
+### Example Uses
+#### Commodore 1530 Datassetta Adapter for Commodore 16/Plus 4 Computers
+OpenC64TapePortBreakOut can be used to make an ad adapter to connect a Commodore 1530 Datassette to a Commodore 16, Plus 4 and other members of the 264 family which use a 1531 Datasssette.
+
+To do so, get a 7-pin Mini-Din cable-mount connector and solder each pin to the corresponding OpenC64TapePortBreakOut pin, using the following pinout:
+
+|Pin#|Function|
+|----|--------|
+|1|GND        |
+|2|Vcc        |
+|3|Motor      |
+|4|Read       |
+|5|Write      |
+|6|Sense      |
+|7|NC (or GND)|
+
+
 ### License
 OpenC64TapePortBreakOut is Open Hardware. If you make any modifications to the board, please contribute them back.
 
